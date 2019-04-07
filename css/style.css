@@ -75,24 +75,30 @@ body {
 }
 
 
-.search__field {
-    max-width: 50%;
+.g-search__field {
+    max-width: 340px;
     color: #ec5a62;
     font-size: 80px;
     font-weight: 700;
     border: 0;
-    background-color: transparent;
+    /* background-color: transparent; */
     outline: none;
+}
+
+.g-search__field:hover {
+    max-width: 800px;
 }
 
 ::-webkit-input-placeholder {
     color: #c2c2c2;
 }
 
-.search__btn {
+.g-search__btn {
     flex-shrink: 0;
     width: 55px;
+    height: 55px;
     border: 0;
+    background-image: url(../img/magnifier.svg);
     background-color: transparent;
     outline: none;
     
@@ -106,6 +112,10 @@ body {
     display: inline-block;
     width: 100%;
     margin-bottom: 4px;
+}
+
+.list__item:last-child {
+    margin-bottom: 0;
 }
 
 .list__link {
@@ -141,3 +151,5 @@ body {
     font-weight: 700;
    
 }
+
+/* переделать в форму запрос */
